@@ -7,4 +7,4 @@ RUN mkdir -p /home/app
 
 COPY . /home/app
 
-CMD ["node", "/docker-demo/app/server.js"]
+CMD ["node", "/repos/docker-demo/app/server.js"]
